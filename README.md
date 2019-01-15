@@ -14,3 +14,12 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our 
 [online documentation](https://flutter.io/docs), which offers tutorials, 
 samples, guidance on mobile development, and a full API reference.
+
+![alt text](https://github.com/hitesh-sultaniya/Wallyfy/blob/master/ScreeShots/11.png)
+![alt text](https://github.com/hitesh-sultaniya/Wallyfy/blob/master/ScreeShots/12.png)
+![alt text](https://github.com/hitesh-sultaniya/Wallyfy/blob/master/ScreeShots/13.png)
+![alt text](https://github.com/hitesh-sultaniya/Wallyfy/blob/master/ScreeShots/14.png)
+![alt text](https://github.com/hitesh-sultaniya/Wallyfy/blob/master/ScreeShots/15.png)
+![alt text](https://github.com/hitesh-sultaniya/Wallyfy/blob/master/ScreeShots/16.png)
+![alt text](https://github.com/hitesh-sultaniya/Wallyfy/blob/master/ScreeShots/17.png)
+![alt text](https://github.com/hitesh-sultaniya/Wallyfy/blob/master/ScreeShots/18.png)
