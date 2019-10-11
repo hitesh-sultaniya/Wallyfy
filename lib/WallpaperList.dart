@@ -13,7 +13,7 @@ import 'package:connectivity/connectivity.dart';
 
 
 
-const String apiKey = "10810708-4f78cda91fb5ce5036136f319";
+const String apiKey = "Fill With your Key";
 const String pixaBayUrl = "https://pixabay.com/";
 
 class WallpaperList extends StatefulWidget {
@@ -51,7 +51,7 @@ class _WallpaperListState extends State<WallpaperList> {
     {
 
       final response =
-      await http.get('https://pixabay.com/api/?key=10810708-4f78cda91fb5ce5036136f319&category=${widget.nameCategory}&per_page=200&safesearch=true');
+      await http.get('https://pixabay.com/api/?key=Your_Key&category=${widget.nameCategory}&per_page=200&safesearch=true');
       final file = await _localFile;
       SharedPreferences prefs = await SharedPreferences.getInstance();
       file.writeAsString(response.body);
@@ -78,7 +78,7 @@ class _WallpaperListState extends State<WallpaperList> {
       {
         // If we encounter an error, return 0
         final response =
-        await http. get ('https://pixabay.com/api/?key=10810708-4f78cda91fb5ce5036136f319&category=${widget.nameCategory}&per_page=200&safesearch=true');
+        await http. get ('https://pixabay.com/api/?key=Your_Key&category=${widget.nameCategory}&per_page=200&safesearch=true');
         final file = await _localFile;
         SharedPreferences prefs = await SharedPreferences.getInstance();
         file.writeAsString(response.body);
