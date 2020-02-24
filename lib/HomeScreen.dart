@@ -6,10 +6,10 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:share/share.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 
-const String appId = "ca-app-pub-7650945113243356~2684802114";
-const String bannerId = "ca-app-pub-7650945113243356/6292998344";
-const String fullAdId = "ca-app-pub-7650945113243356/8647575231";
-const String testDeviceId = "39949D93A8C833AF5E38907C5B88516D";
+const String appId = "";
+const String bannerId = "";
+const String fullAdId = "";
+const String testDeviceId = "";
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -104,7 +104,7 @@ class _HomeScreenState extends State<HomeScreen>
   }
 
   _launchPrivacyPolicy() async {
-    const url = 'https://lemontreeapps.github.io/WallyFy.html';
+    const url = '';
     if (await canLaunch(url)) {
       await launch(url);
     } else {
@@ -113,7 +113,7 @@ class _HomeScreenState extends State<HomeScreen>
   }
 
   _launchMoreApps() async {
-    const url = 'https://play.google.com/store/apps/developer?id=Incognito+Apps';
+    const url = '';
     if (await canLaunch(url)) {
       await launch(url);
     } else {
